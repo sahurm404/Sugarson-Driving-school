@@ -170,6 +170,18 @@ a {
     border-color: var(--white);
 }
 
+.btn-whatsapp {
+    background: #25D366;
+    color: var(--white);
+    box-shadow: 0 8px 24px rgba(37, 211, 102, 0.3);
+}
+
+.btn-whatsapp:hover {
+    background: #128C7E;
+    transform: translateY(-2px);
+    box-shadow: 0 12px 32px rgba(37, 211, 102, 0.4);
+}
+
 .btn-full {
     width: 100%;
 }
@@ -856,8 +868,21 @@ section {
 
 @media (min-width: 768px) {
     .contact-grid {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
     }
+}
+
+.contact-card-whatsapp {
+    border-color: #25D366;
+}
+
+.contact-card-whatsapp:hover {
+    border-color: #128C7E;
+    background: rgba(37, 211, 102, 0.05);
+}
+
+.contact-icon-whatsapp {
+    background: #25D366 !important;
 }
 
 /* ========================================
